@@ -9,6 +9,7 @@ export default {
       colors: {
         primary: '#9181FF',
         primaryLight: '#A294FF',
+        primaryEvenLight: '#EDEAF9',
         secondary: '#F8FE91',
         textPrimary: '#373C42',
         textSecondary: '#B7BCC2',
