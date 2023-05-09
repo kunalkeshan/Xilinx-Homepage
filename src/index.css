@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	html {
+		font-family: 'Nunito Sans', system-ui, sans-serif;
+		/* font-family: 'Unica One', cursive;
+	font-family: 'Yeseva One', cursive; */
+	}
+}
