@@ -26,6 +26,22 @@ const commonLinks: Links = [
 	},
 ];
 
-export const NAV_LINKS: Links = [...commonLinks];
+export const NAV_LINKS: Links = [
+	...commonLinks,
+	{
+		name: 'Visit SRMIST ↗',
+		url: 'https://srmist.edu.in/',
+	},
+];
 
-export const FOOTER_LINKS: Links = [...commonLinks];
+export const FOOTER_LINKS: Links = [
+	...commonLinks,
+	{
+		name: 'Team',
+		url: '/team',
+	},
+	{
+		name: 'GitHub',
+		url: 'https://github.com/kunalkeshan/Xilinx-Homepage',
+	},
+];
