@@ -15,7 +15,7 @@ const Navbar = () => {
 	return (
 		<>
 			<Headroom>
-				<nav className='w-full p-4'>
+				<nav className='w-full p-4 bg-white'>
 					<div className='flex items-center justify-between max-w-7xl w-full mx-auto'>
 						<Link className='w-32 md:w-40' to='/'>
 							<img
