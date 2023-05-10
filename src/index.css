@@ -10,7 +10,7 @@
 	}
 
 	.btn {
-		@apply rounded-full border border-primary py-4 px-8 transition-all duration-300;
+		@apply rounded-full border border-primary py-3 px-6 md:py-4 md:px-8 transition-all duration-300;
 	}
 
 	.btn-primary {

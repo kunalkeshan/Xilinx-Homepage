@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Intro = () => {
 	return (
-		<section className='w-full min-h-fit grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto items-center justify-center text-center md:text-left'>
+		<section className='z-0 w-full min-h-fit grid grid-cols-1 md:grid-cols-2 max-w-7xl mx-auto items-center justify-center text-center md:text-left'>
 			<div className='flex flex-col gap-4'>
 				<h1 className='font-heading text-5xl md:text-7xl'>
 					Xilinx Nexus SRM
@@ -18,7 +18,7 @@ const Intro = () => {
 					Women in Technology (WIT) programs within the university, by
 					providing the necessary funding.
 				</p>
-				<div className='flex items-center gap-8 justify-center md:justify-normal'>
+				<div className='flex items-center gap-8 justify-center md:justify-normal text-sm md:text-base'>
 					<Link to='/#vision' className='btn btn-primary'>
 						Learn More
 					</Link>
@@ -28,7 +28,7 @@ const Intro = () => {
 				</div>
 			</div>
 			<div>
-				<div>
+				<div className='-z-50'>
 					<Lottie
 						animationData={WomenInTechAnimationData}
 						loop={true}
