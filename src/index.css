@@ -8,4 +8,16 @@
 		/* font-family: 'Unica One', cursive;
 	font-family: 'Yeseva One', cursive; */
 	}
+
+	.btn {
+		@apply rounded-full border border-primary py-4 px-8 transition-all duration-300;
+	}
+
+	.btn-primary {
+		@apply hover:text-white hover:bg-primary text-primary;
+	}
+
+	.btn-secondary {
+		@apply bg-primaryLight hover:bg-primary text-white;
+	}
 }
