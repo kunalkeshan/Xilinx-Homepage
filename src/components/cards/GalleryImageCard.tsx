@@ -1,3 +1,7 @@
+/**
+ * Gallery Image Card Component
+ */
+
 import React from 'react';
 import { Image } from '../../data/gallery';
 

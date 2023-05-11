@@ -1,3 +1,7 @@
+/**
+ * Footer Component
+ */
+
 import { FOOTER_LINKS } from '../../data/navigation';
 import { Link } from 'react-router-dom';
 

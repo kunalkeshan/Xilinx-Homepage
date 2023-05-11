@@ -1,3 +1,7 @@
+/**
+ * Polytechnic Students Event Page
+ */
+
 const PolytechnicStudentsEventsPage = () => {
 	const ACTIVITIES = [
 		{

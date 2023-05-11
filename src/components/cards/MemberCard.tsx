@@ -1,3 +1,7 @@
+/**
+ * Member Card Component
+ */
+
 import React from 'react';
 import { TeamMember } from '../../data/team';
 import { FaGlobe, FaInstagram, FaTwitter, FaLinkedinIn } from 'react-icons/fa';

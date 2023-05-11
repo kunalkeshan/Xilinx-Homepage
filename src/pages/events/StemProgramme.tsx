@@ -1,3 +1,7 @@
+/**
+ * STEM Porgramme Event Page
+ */
+
 const StemProgrammeEventPage = () => {
 	const FACULTIES_PRESENT = [
 		'Dr. Vasantha Dev Suryakala Assistant Professor/ECE',

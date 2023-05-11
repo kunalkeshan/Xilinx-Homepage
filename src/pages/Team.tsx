@@ -1,3 +1,7 @@
+/**
+ * Full Team Page
+ */
+
 import { TEAM } from '../data/team';
 import MemberCard from '../components/cards/MemberCard';
 

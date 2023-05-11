@@ -1,3 +1,7 @@
+/**
+ * YouTube Embed Component
+ */
+
 import React from 'react';
 
 interface YouTubeEmbedProps {

@@ -1,3 +1,7 @@
+/**
+ * Not Found Page
+ */
+
 import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => {

@@ -1,3 +1,7 @@
+/**
+ * Gallery Page
+ */
+
 import GalleryImageCard from '../components/cards/GalleryImageCard';
 import { IMAGES } from '../data/gallery';
 
