@@ -3,11 +3,13 @@ import Navbar from './components/layouts/Navbar';
 import Footer from './components/layouts/Footer';
 import HomePage from './pages/Home';
 import EventsPage from './pages/events';
-import IndividualEventsPage from './pages/events/IndividualEvents';
 import ResearchPage from './pages/Research';
 import GalleryPage from './pages/Gallery';
 import TeamPage from './pages/Team';
 import NotFoundPage from './pages/NotFound';
+import StemProgrammeEventPage from './pages/events/StemProgramme';
+import EAndTEducationEventPage from './pages/events/EAndTEducation';
+import PolytechnicStudentsEventsPage from './pages/events/PolytechnicStudents';
 
 function App() {
 	return (
@@ -17,8 +19,16 @@ function App() {
 				<Route path='/' element={<HomePage />} />
 				<Route path='/events' element={<EventsPage />} />
 				<Route
-					path='/events/:eventSlug'
-					element={<IndividualEventsPage />}
+					path='/event/stem-programme'
+					element={<StemProgrammeEventPage />}
+				/>
+				<Route
+					path='/event/engineering-and-technology-education'
+					element={<EAndTEducationEventPage />}
+				/>
+				<Route
+					path='/event/polytechnic-students'
+					element={<PolytechnicStudentsEventsPage />}
 				/>
 				<Route path='/research' element={<ResearchPage />} />
 				<Route path='/gallery' element={<GalleryPage />} />

@@ -11,14 +11,14 @@ const TeamPage = () => {
 				Meet the team that made this possible!
 			</h2>
 			{TeamTitles.map((title) => (
-				<>
-					<h3 className='font-heading text-xl mt-8'>{title}</h3>
+				<section className='mt-8'>
+					<h3 className='font-heading text-xl'>{title}</h3>
 					<div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-8'>
 						{TEAM[title].map((member, index) => (
 							<MemberCard key={index} data={member} />
 						))}
 					</div>
-				</>
+				</section>
 			))}
 		</main>
 	);
