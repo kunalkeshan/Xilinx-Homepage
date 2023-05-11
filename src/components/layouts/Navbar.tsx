@@ -1,3 +1,7 @@
+/**
+ * Navbar Component
+ */
+
 import { useState } from 'react';
 import Headroom from 'react-headroom';
 import { GiHamburgerMenu } from 'react-icons/gi';

@@ -1,3 +1,7 @@
+/**
+ * Project Highlight Component
+ */
+
 import Lottie from 'lottie-react';
 import HardwareAnimationData from '../../assets/lottie/hardware-animation.json';
 import { FaGithub } from 'react-icons/fa';

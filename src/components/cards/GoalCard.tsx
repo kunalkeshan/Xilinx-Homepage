@@ -1,3 +1,7 @@
+/**
+ * Goal Card Component
+ */
+
 import React from 'react';
 import { IMission } from '../../data/goals';
 

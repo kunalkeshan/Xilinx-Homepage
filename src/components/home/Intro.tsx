@@ -1,3 +1,7 @@
+/**
+ * Intro Component
+ */
+
 import Lottie from 'lottie-react';
 import WomenInTechAnimationData from '../../assets/lottie/women-in-tech.json';
 import { Link } from 'react-router-dom';

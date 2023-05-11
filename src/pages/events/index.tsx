@@ -1,3 +1,7 @@
+/**
+ * All Events Page
+ */
+
 import { EVENTS } from '../../data/events';
 import EventCard from '../../components/cards/EventCard';
 

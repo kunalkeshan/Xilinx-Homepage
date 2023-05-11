@@ -1,3 +1,7 @@
+/**
+ * Research Page
+ */
+
 import ProjectHighlight from '../components/home/ProjectHighlight';
 
 const ResearchPage = () => {

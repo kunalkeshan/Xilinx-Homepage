@@ -1,3 +1,7 @@
+/**
+ * Event Card Component
+ */
+
 import React from 'react';
 import { Event } from '../../data/events';
 

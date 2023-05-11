@@ -1,3 +1,7 @@
+/**
+ * Engineering & Technology Education Event Page
+ */
+
 const EAndTEducationEventPage = () => {
 	const ACTIVITIES = [
 		'Design flow using Xilinx tools ( hardware and software)',

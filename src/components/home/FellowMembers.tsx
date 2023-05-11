@@ -1,3 +1,7 @@
+/**
+ * Fellow Members Component
+ */
+
 import { TEAM } from '../../data/team';
 import MemberCard from '../cards/MemberCard';
 

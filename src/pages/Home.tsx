@@ -1,3 +1,7 @@
+/**
+ * Home Page
+ */
+
 import FellowMembers from '../components/home/FellowMembers';
 import Goals from '../components/home/Goals';
 import Intro from '../components/home/Intro';

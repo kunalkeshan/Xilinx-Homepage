@@ -1,7 +1,11 @@
+/**
+ * Goals Component
+ * Includes Vision and Mission.
+ */
+
 import { VISION, MISSION } from '../../data/goals';
 import GoalCard from '../cards/GoalCard';
 
-// Includes Vision and Mission.
 const Goals = () => {
 	return (
 		<section className='w-full min-h-fit max-w-7xl mx-auto mt-16'>
