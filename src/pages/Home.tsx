@@ -11,7 +11,7 @@ const HomePage = () => {
 			<FellowMembers />
 			<ProjectHighlight />
 			<Goals />
-			<YouTubeEmbed embedId={'U7-F9dA_U9c'} />
+			{/* <YouTubeEmbed embedId={'U7-F9dA_U9c'} /> */}
 		</main>
 	);
 };
