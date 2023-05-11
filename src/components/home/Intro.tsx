@@ -19,9 +19,9 @@ const Intro = () => {
 					providing the necessary funding.
 				</p>
 				<div className='flex items-center gap-8 justify-center md:justify-normal text-sm md:text-base'>
-					<Link to='/#vision' className='btn btn-primary'>
+					<a href='/#vision' className='btn btn-primary'>
 						Learn More
-					</Link>
+					</a>
 					<Link to='/events' className='btn btn-secondary'>
 						View Events
 					</Link>
