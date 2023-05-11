@@ -2,7 +2,7 @@ import FellowMembers from '../components/home/FellowMembers';
 import Goals from '../components/home/Goals';
 import Intro from '../components/home/Intro';
 import ProjectHighlight from '../components/home/ProjectHighlight';
-import YouTubeEmbed from '../components/home/YouTubeEmbed';
+// import YouTubeEmbed from '../components/home/YouTubeEmbed';
 
 const HomePage = () => {
 	return (
