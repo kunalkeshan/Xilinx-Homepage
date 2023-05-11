@@ -12,6 +12,7 @@ const GalleryImageCard: React.FC<GalleryImageCardProps> = ({ data }) => {
 				src={data.src}
 				alt={data.alt}
 				className='w-full h-auto object-contain'
+				loading='lazy'
 			/>
 			<p className='text-white text-center px-8 py-4 absolute -bottom-full group-hover:bottom-0 transition-all duration-300 from-tertiary to-transparent bg-gradient-to-t'>
 				{data.alt}
