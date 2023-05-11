@@ -1,3 +1,5 @@
+import ProjectHighlight from '../components/home/ProjectHighlight';
+
 const ResearchPage = () => {
 	return (
 		<main className='w-full px-4 py-12 max-w-7xl mx-auto text-center md:text-left'>
@@ -42,6 +44,7 @@ const ResearchPage = () => {
 					predictions for Benign (B) and Malignant (M) findings.
 				</p>
 			</section>
+			<ProjectHighlight />
 		</main>
 	);
 };
