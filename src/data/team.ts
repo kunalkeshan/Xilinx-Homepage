@@ -1,6 +1,6 @@
 // Team Data
 
-interface TeamMember {
+export interface TeamMember {
 	name: string;
 	image: string;
 	profile: string;
