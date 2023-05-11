@@ -51,5 +51,18 @@ export const TEAM: TeamCollection = {
 		},
 	],
 	Faculty: [],
-	Students: [],
+	Students: [
+		{
+			name: 'Kunal Keshan',
+			image: '/images/team/kunalkeshan.jpeg',
+			profile: 'https://kunalkeshan.dev',
+			position: 'Student at ECE & Web Developer',
+			socials: {
+				website: 'https://kunalkeshan.dev',
+				linkedin: 'https://www.linkedin.com/in/kunalkeshan/',
+				twitter: 'https://twitter.com/_kunalkeshan_',
+				instagram: 'https://instagram.com/kunalkeshan',
+			},
+		},
+	],
 };

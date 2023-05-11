@@ -1,5 +1,27 @@
+import { TEAM } from '../data/team';
+import MemberCard from '../components/cards/MemberCard';
+
+const TeamTitles = Object.keys(TEAM);
+
 const TeamPage = () => {
-	return <div>TeamPage</div>;
+	return (
+		<main className='w-full px-4 py-12 max-w-7xl mx-auto text-center md:text-left'>
+			<h1 className='font-heading text-3xl md:text-7xl'>Team</h1>
+			<h2 className='font-subHeading text-xl md:text-3xl'>
+				Meet the team that made this possible!
+			</h2>
+			{TeamTitles.map((title) => (
+				<>
+					<h3 className='font-heading text-xl mt-8'>{title}</h3>
+					<div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-8'>
+						{TEAM[title].map((member, index) => (
+							<MemberCard key={index} data={member} />
+						))}
+					</div>
+				</>
+			))}
+		</main>
+	);
 };
 
 export default TeamPage;
