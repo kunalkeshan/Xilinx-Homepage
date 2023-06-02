@@ -2,6 +2,8 @@
  * Polytechnic Students Event Page
  */
 
+import ScrollToTop from '../../components/reusable/ScrollToTop';
+
 const PolytechnicStudentsEventsPage = () => {
 	const ACTIVITIES = [
 		{
@@ -60,6 +62,7 @@ const PolytechnicStudentsEventsPage = () => {
 					/>
 				</div>
 			</section>
+			<ScrollToTop />
 		</main>
 	);
 };

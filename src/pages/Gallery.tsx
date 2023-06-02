@@ -3,6 +3,7 @@
  */
 
 import GalleryImageCard from '../components/cards/GalleryImageCard';
+import ScrollToTop from '../components/reusable/ScrollToTop';
 import { IMAGES } from '../data/gallery';
 
 const GalleryPage = () => {
@@ -17,6 +18,7 @@ const GalleryPage = () => {
 					<GalleryImageCard key={index} data={image} />
 				))}
 			</section>
+			<ScrollToTop />
 		</main>
 	);
 };
