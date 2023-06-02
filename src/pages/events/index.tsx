@@ -4,6 +4,7 @@
 
 import { EVENTS } from '../../data/events';
 import EventCard from '../../components/cards/EventCard';
+import ScrollToTop from '../../components/reusable/ScrollToTop';
 
 const EventsPage = () => {
 	return (
@@ -17,6 +18,7 @@ const EventsPage = () => {
 					<EventCard key={index} data={event} />
 				))}
 			</section>
+			<ScrollToTop />
 		</main>
 	);
 };

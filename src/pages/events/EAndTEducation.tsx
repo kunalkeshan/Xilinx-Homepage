@@ -2,6 +2,8 @@
  * Engineering & Technology Education Event Page
  */
 
+import ScrollToTop from '../../components/reusable/ScrollToTop';
+
 const EAndTEducationEventPage = () => {
 	const ACTIVITIES = [
 		'Design flow using Xilinx tools ( hardware and software)',
@@ -68,6 +70,7 @@ const EAndTEducationEventPage = () => {
 					))}
 				</ul>
 			</section>
+			<ScrollToTop />
 		</main>
 	);
 };

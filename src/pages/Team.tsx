@@ -4,6 +4,7 @@
 
 import { TEAM } from '../data/team';
 import MemberCard from '../components/cards/MemberCard';
+import ScrollToTop from '../components/reusable/ScrollToTop';
 
 const TeamTitles = Object.keys(TEAM);
 
@@ -24,6 +25,7 @@ const TeamPage = () => {
 					</div>
 				</section>
 			))}
+			<ScrollToTop />
 		</main>
 	);
 };

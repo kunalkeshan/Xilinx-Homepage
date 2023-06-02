@@ -2,6 +2,8 @@
  * STEM Porgramme Event Page
  */
 
+import ScrollToTop from '../../components/reusable/ScrollToTop';
+
 const StemProgrammeEventPage = () => {
 	const FACULTIES_PRESENT = [
 		'Dr. Vasantha Dev Suryakala Assistant Professor/ECE',
@@ -154,6 +156,7 @@ const StemProgrammeEventPage = () => {
 					))}
 				</ul>
 			</section>
+			<ScrollToTop />
 		</main>
 	);
 };

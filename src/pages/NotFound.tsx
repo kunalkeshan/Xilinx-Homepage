@@ -3,6 +3,7 @@
  */
 
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../components/reusable/ScrollToTop';
 
 const NotFoundPage = () => {
 	return (
@@ -14,6 +15,7 @@ const NotFoundPage = () => {
 			<Link to='/' className='btn btn-primary w-fit'>
 				Go back Home.
 			</Link>
+			<ScrollToTop />
 		</main>
 	);
 };

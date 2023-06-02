@@ -3,6 +3,7 @@
  */
 
 import ProjectHighlight from '../components/home/ProjectHighlight';
+import ScrollToTop from '../components/reusable/ScrollToTop';
 
 const ResearchPage = () => {
 	return (
@@ -49,6 +50,7 @@ const ResearchPage = () => {
 				</p>
 			</section>
 			<ProjectHighlight />
+			<ScrollToTop />
 		</main>
 	);
 };
