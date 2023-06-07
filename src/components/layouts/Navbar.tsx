@@ -55,7 +55,11 @@ const Navbar = () => {
 			{open && (
 				<div className='w-full h-screen fixed top-0 left-0 bg-primaryEvenLight px-8 py-4 md:hidden z-50'>
 					<div className='flex items-center justify-between'>
-						<Link className='w-32 md:w-40' to='/'>
+						<Link
+							className='w-32 md:w-40'
+							to='/'
+							onClick={() => setOpen(false)}
+						>
 							<img
 								src='/images/xilinx-srm-logo.png'
 								className='w-full h-auto object-contain'

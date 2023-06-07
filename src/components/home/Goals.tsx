@@ -19,7 +19,7 @@ const Goals = () => {
 						A target to strive for
 					</p>
 					<h2 className='font-heading text-3xl md:text-5xl'>
-						What is our Vision?
+						Our Vision
 					</h2>
 				</div>
 				<div className='mt-4 md:mt-0'>
@@ -29,7 +29,7 @@ const Goals = () => {
 			{/* Mission */}
 			<div className='mt-16 text-center md:text-left'>
 				<h2 className='font-heading text-3xl md:text-5xl'>
-					Mission of this project.
+					Our Project's Purpose
 				</h2>
 				<div className='grid grid-cols-1 md:grid-cols-3 mt-8 gap-8'>
 					{MISSION.map((mission, index) => (
