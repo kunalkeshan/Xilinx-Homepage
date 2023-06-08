@@ -51,6 +51,22 @@ export const TEAM: TeamCollection = {
 		},
 	],
 	Faculty: [],
+	'Research Assistant': [
+		{
+			name: 'Heartlin Maria',
+			image: '/images/team/heartlin.jpg',
+			profile: '#',
+			position: 'Research Assistant',
+			socials: {},
+		},
+		{
+			name: 'Kayalvizhi R',
+			image: '/images/team/kayalvizhi.jpg',
+			profile: '#',
+			position: 'Research Assistant',
+			socials: {},
+		},
+	],
 	Students: [
 		{
 			name: 'Kunal Keshan',
@@ -62,6 +78,15 @@ export const TEAM: TeamCollection = {
 				linkedin: 'https://www.linkedin.com/in/kunalkeshan/',
 				twitter: 'https://twitter.com/_kunalkeshan_',
 				instagram: 'https://instagram.com/kunalkeshan',
+			},
+		},
+		{
+			name: 'Faisal Nazir',
+			image: '/images/team/faisal.jpeg',
+			profile: 'https://www.linkedin.com/in/faisal-nazir-361945133/',
+			position: 'Student at CSE & Web Developer',
+			socials: {
+				linkedin: 'https://www.linkedin.com/in/faisal-nazir-361945133/',
 			},
 		},
 	],
