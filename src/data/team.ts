@@ -51,6 +51,22 @@ export const TEAM: TeamCollection = {
 		},
 	],
 	Faculty: [],
+	'Research Assistant': [
+		{
+			name: 'Heartlin Maria',
+			image: '/images/team/heartlin.jpg',
+			profile: '#',
+			position: 'Research Assistant',
+			socials: {},
+		},
+		{
+			name: 'Kayalvizhi R',
+			image: '/images/team/kayalvizhi.jpg',
+			profile: '#',
+			position: 'Research Assistant',
+			socials: {},
+		},
+	],
 	Students: [
 		{
 			name: 'Kunal Keshan',
