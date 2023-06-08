@@ -64,5 +64,14 @@ export const TEAM: TeamCollection = {
 				instagram: 'https://instagram.com/kunalkeshan',
 			},
 		},
+		{
+			name: 'Faisal Nazir',
+			image: '/images/team/faisal.jpeg',
+			profile: 'https://www.linkedin.com/in/faisal-nazir-361945133/',
+			position: 'Student at CSE & Web Developer',
+			socials: {
+				linkedin: 'https://www.linkedin.com/in/faisal-nazir-361945133/',
+			},
+		},
 	],
 };
