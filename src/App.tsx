@@ -10,6 +10,10 @@ import NotFoundPage from './pages/NotFound';
 import StemProgrammeEventPage from './pages/events/StemProgramme';
 import EAndTEducationEventPage from './pages/events/EAndTEducation';
 import PolytechnicStudentsEventsPage from './pages/events/PolytechnicStudents';
+import MainResourcesPage from './pages/reports';
+import FirstQuarter from './pages/reports/FirstQuarter';
+import SecondQuarter from './pages/reports/SecondQuarter';
+import ThirdQuarter from './pages/reports/ThirdQuarter';
 
 function App() {
 	return (
@@ -29,6 +33,19 @@ function App() {
 				<Route
 					path='/event/polytechnic-students'
 					element={<PolytechnicStudentsEventsPage />}
+				/>
+				<Route path='/reports' element={<MainResourcesPage />} />
+				<Route
+					path='/report/first-quarter'
+					element={<FirstQuarter />}
+				/>
+				<Route
+					path='/report/second-quarter'
+					element={<SecondQuarter />}
+				/>
+				<Route
+					path='/report/third-quarter'
+					element={<ThirdQuarter />}
 				/>
 				<Route path='/research' element={<ResearchPage />} />
 				<Route path='/gallery' element={<GalleryPage />} />

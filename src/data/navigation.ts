@@ -17,6 +17,10 @@ const commonLinks: Links = [
 		url: '/events',
 	},
 	{
+		name: 'Reports',
+		url: '/reports',
+	},
+	{
 		name: 'Gallery',
 		url: '/gallery',
 	},
