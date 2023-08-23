@@ -6,8 +6,6 @@
 import React from 'react';
 import { Report } from '../../data/reports';
 import ScrollToTop from '../reusable/ScrollToTop';
-import 'react-pdf/dist/Page/AnnotationLayer.css';
-import 'react-pdf/dist/Page/TextLayer.css';
 
 interface ReportPageProps {
 	data: Report;
